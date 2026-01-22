@@ -1,6 +1,6 @@
-import React from "react";
 import { createRoot } from "react-dom/client";
-import Main from "./screens/Main";
+import App from "./components/App";
+import "./output.css";
 
 const root = createRoot(document.body);
-root.render(<Main />);
+root.render(<App />);
